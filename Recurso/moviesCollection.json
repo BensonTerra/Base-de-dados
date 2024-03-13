@@ -1,0 +1,1305 @@
+[{
+  "_id": {
+    "$oid": "573a139ff29313caabcff201"
+  },
+  "plot": "To cure a prince's murderous madness, Scheherezade tells him a series of wonderous stories.",
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "runtime": 175,
+  "cast": [
+    "Mili Avital",
+    "Alan Bates",
+    "James Frain",
+    "Tchèky Karyo"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTQ3NTk2MDk3N15BMl5BanBnXkFtZTcwMzgwNjgyMQ@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Arabian Nights",
+  "fullplot": "Long ago, the Sultan Schariar has gone mad after his traumatizing near assassination in which his wife collaborated and died at his hands as a result. Now he has a paranoid suspicion of women which he plans to express in a diabolical plan, and that is to marry a woman from the harem and then have her executed the very next morning. To prevent this, the Grand Vizier's daughter and a childhood friend of the Sultan, Scheherezade, offers herself to be that bride. Now, she must gamble that her plan will work as she tries to cure his madness by telling him story after wondrous story which include the tales of Ali Baba and the Forty Thieves and Aladdin and his Wonderful Lamp. All the while, the Sultan's villainous brother is making plans of his own and Scheherezade's stories are more useful against him than anyone can anticipate.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2000-04-30T00:00:00Z"
+  },
+  "awards": {
+    "wins": 3,
+    "nominations": 15,
+    "text": "Won 1 Primetime Emmy. Another 2 wins & 15 nominations."
+  },
+  "lastupdated": "2015-07-24 01:04:20.647000000",
+  "year": "2000è",
+  "imdb": {
+    "rating": 7.5,
+    "votes": 3856,
+    "id": 181199
+  },
+  "countries": [
+    "USA"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.4,
+      "numReviews": 7272,
+      "meter": 81
+    },
+    "dvd": {
+      "$date": "2001-08-07T00:00:00Z"
+    },
+    "production": "Hallmark Entertainment",
+    "lastUpdated": {
+      "$date": "2015-09-15T18:55:48Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13aef29313caabd2d9ca"
+  },
+  "plot": "Thirty-three years ago, an alien force known as the \"JAM\" invaded Earth through a dimensional portal over Antarctica. Earth's forces managed to drive the JAM away to a distant planet ...",
+  "genres": [
+    "Animation",
+    "Action",
+    "Adventure"
+  ],
+  "runtime": 47,
+  "cast": [
+    "Yèko Asagami",
+    "Katsumi Chè",
+    "Takaya Hashi",
+    "Takuya Kirimoto"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTc2NzYxMzA5MF5BMl5BanBnXkFtZTcwMzU2Mzc0MQ@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Yukikaze",
+  "fullplot": "Thirty-three years ago, an alien force known as the \"JAM\" invaded Earth through a dimensional portal over Antarctica. Earth's forces managed to drive the JAM away to a distant planet designated as \"Fairy\". While the majority of Earth's population is unaware of the JAM's presence, the war continues on Fairy, where Rei Fukai is an SAF (Special Air Force) pilot assigned to pilot \"Yukikaze\"-an advanced reconnaissance fighter plane equipped with a near-sentient A.I. that detects the presence of the JAM within its path.",
+  "languages": [
+    "Japanese"
+  ],
+  "released": {
+    "$date": "2002-08-25T00:00:00Z"
+  },
+  "awards": {
+    "wins": 2,
+    "nominations": 0,
+    "text": "2 wins."
+  },
+  "lastupdated": "2015-08-05 01:04:37.273000000",
+  "year": "2002è",
+  "imdb": {
+    "rating": 7.5,
+    "votes": 216,
+    "id": 378730
+  },
+  "countries": [
+    "Japan"
+  ],
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13aef29313caabd2ea5f"
+  },
+  "plot": "A weekly documentary in which two Hollywood special effects experts attempt to debunk urban legends by directly testing them.",
+  "genres": [
+    "Documentary",
+    "Mystery"
+  ],
+  "runtime": 44,
+  "rated": "TV-PG",
+  "cast": [
+    "Jamie Hyneman",
+    "Adam Savage",
+    "Robert Lee",
+    "Kari Byron"
+  ],
+  "num_mflix_comments": 2,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNDcyODYwNV5BMl5BanBnXkFtZTcwMjk1NjA4MQ@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "MythBusters",
+  "fullplot": "Mythbusters takes myths, tall tales and urban legends and gives them the scientific treatment to determine their validity. Myths are proved true, probable, possible, improbable or busted. Often after the real-world practical tests have proved or debunked a Myth, the team will take the experiment to the extreme, many times using more modern technology than the myth could have used or upping the black powder for impressive explosions.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2003-10-03T00:00:00Z"
+  },
+  "writers": [
+    "Peter Rees"
+  ],
+  "awards": {
+    "wins": 7,
+    "nominations": 3,
+    "text": "Nominated for 6 Primetime Emmys. Another 1 win & 3 nominations."
+  },
+  "lastupdated": "2015-08-24 00:12:53.260000000",
+  "year": "2003è",
+  "imdb": {
+    "rating": 8.4,
+    "votes": 37096,
+    "id": 383126
+  },
+  "countries": [
+    "USA"
+  ],
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13b2f29313caabd385ea"
+  },
+  "plot": "A group of Australians are nominated for the Australian of the Year Award.",
+  "genres": [
+    "Comedy"
+  ],
+  "runtime": 30,
+  "cast": [
+    "Chris Lilley",
+    "Jennifer Byrne",
+    "Mick Graham",
+    "Chung Jade Koh"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTM1ODY2ODAwNl5BMl5BanBnXkFtZTcwNzE2MDg5MQ@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "We Can Be Heroes",
+  "fullplot": "A group of Australians are nominated for the Australian of the Year Award.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2005-07-27T00:00:00Z"
+  },
+  "writers": [
+    "Chris Lilley"
+  ],
+  "awards": {
+    "wins": 3,
+    "nominations": 5,
+    "text": "3 wins & 5 nominations."
+  },
+  "lastupdated": "2015-08-25 00:39:00.150000000",
+  "year": "2005è",
+  "imdb": {
+    "rating": 8.4,
+    "votes": 1725,
+    "id": 425674
+  },
+  "countries": [
+    "Australia"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.6,
+      "numReviews": 48
+    },
+    "dvd": {
+      "$date": "2005-03-08T00:00:00Z"
+    },
+    "lastUpdated": {
+      "$date": "2014-12-08T23:26:30Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13b6f29313caabd48af3"
+  },
+  "plot": "The vampire Alucard and his newly sired ward Seras tries to protect England from a war-crazed SS-Major who seeks to start an eternal war with his vampire army.",
+  "genres": [
+    "Animation",
+    "Action",
+    "Fantasy"
+  ],
+  "runtime": 50,
+  "rated": "TV-MA",
+  "cast": [
+    "Katie Gray",
+    "Victoria Harwood",
+    "Crispin Freeman",
+    "Ralph Lister"
+  ],
+  "num_mflix_comments": 2,
+  "poster": "https://m.media-amazon.com/images/M/MV5BYTU5ZWExZjktMmI5MC00MjUwLTk0MjAtNDExMDk1ZDUzZWY3XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Hellsing Ultimate",
+  "fullplot": "In flashback, Integra is seen assuming leadership of the Hellsing organization as she resolves a conflict with her uncle with the help of the vampire Alucard. In present day, Alucard goes on a mission to the town of Cheddar to silence a vampiric priest who has been killing townspeople, and in the process must also present the young police girl Seras Victoria with the choice to either die or become a vampire. Also, Alucard battles a Vatican priest named Alexander Anderson after they are both sent to kill the same vampire in Northern Ireland.",
+  "languages": [
+    "Japanese"
+  ],
+  "released": {
+    "$date": "2006-12-05T00:00:00Z"
+  },
+  "writers": [
+    "Kohta Hirano"
+  ],
+  "awards": {
+    "wins": 5,
+    "nominations": 3,
+    "text": "5 wins & 3 nominations."
+  },
+  "lastupdated": "2015-08-17 00:55:25.017000000",
+  "year": "2006è2012",
+  "imdb": {
+    "rating": 8.5,
+    "votes": 8525,
+    "id": 495212
+  },
+  "countries": [
+    "Japan"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.2,
+      "numReviews": 1510,
+      "meter": 93
+    },
+    "dvd": {
+      "$date": "2003-12-09T00:00:00Z"
+    },
+    "lastUpdated": {
+      "$date": "2015-08-21T18:39:56Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13b6f29313caabd47d67"
+  },
+  "plot": "Three girls become mermaids after a mysterious island transforms them and gives them special powers.",
+  "genres": [
+    "Drama",
+    "Family",
+    "Fantasy"
+  ],
+  "runtime": 23,
+  "rated": "TV-PG",
+  "cast": [
+    "Cariba Heine",
+    "Phoebe Tonkin",
+    "Angus McLaren",
+    "Burgess Abernethy"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BNjUwZWFmMmUtM2U1Zi00NmQ2LThkOTYtNDAyODMyYWE4NDUxXkEyXkFqcGdeQXVyMjM2Mzk0MDk@._V1_SY1000_SX677_AL_.jpg",
+  "title": "H2O: Just Add Water",
+  "fullplot": "When three normal teenage girls stumble upon a ancient cave they undergo a transformation that will change their lives forever. H20 - Just Add Water, sees three very different girls facing everyday teen problems with an added twist - they're mermaids with incredible powers over water.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2008-03-14T00:00:00Z"
+  },
+  "writers": [
+    "Jonathan M. Shiff"
+  ],
+  "awards": {
+    "wins": 2,
+    "nominations": 6,
+    "text": "2 wins & 6 nominations."
+  },
+  "lastupdated": "2015-08-23 00:03:34.220000000",
+  "year": "2006è",
+  "imdb": {
+    "rating": 7.2,
+    "votes": 7526,
+    "id": 491603
+  },
+  "countries": [
+    "Australia"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.9,
+      "numReviews": 276,
+      "meter": 0
+    },
+    "dvd": {
+      "$date": "2009-04-21T00:00:00Z"
+    },
+    "lastUpdated": {
+      "$date": "2015-06-13T18:35:28Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13b6f29313caabd4779b"
+  },
+  "plot": "A 90-minute documentary about life before the dinosaurs.",
+  "genres": [
+    "Documentary"
+  ],
+  "runtime": 87,
+  "cast": [
+    "Kenneth Branagh"
+  ],
+  "num_mflix_comments": 2,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTc2NjIxODYwOF5BMl5BanBnXkFtZTcwNDEyMDIzMQ@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Walking with Monsters",
+  "fullplot": "A 90-minute documentary about life before the dinosaurs. Starting from the Cambrian Period (530 MYA) and ending at the Early Triassic Period (248 MYA), Walking With Monsters shows the life and death struggles prehistoric creatures before the dinosaurs went through. It also portrays an accurate picture of our first ancestors.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2005-11-05T00:00:00Z"
+  },
+  "awards": {
+    "wins": 1,
+    "nominations": 1,
+    "text": "1 win & 1 nomination."
+  },
+  "lastupdated": "2015-08-20 00:16:50.813000000",
+  "year": "2005è",
+  "imdb": {
+    "rating": 8.4,
+    "votes": 990,
+    "id": 490048
+  },
+  "countries": [
+    "UK"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.6,
+      "numReviews": 140,
+      "meter": 64
+    },
+    "production": "Freestyle Releasing",
+    "boxOffice": "$3.0k",
+    "lastUpdated": {
+      "$date": "2015-08-02T19:54:38Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13baf29313caabd521ac"
+  },
+  "plot": "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
+  "genres": [
+    "Animation",
+    "Crime",
+    "Drama"
+  ],
+  "runtime": 24,
+  "cast": [
+    "Mamoru Miyano",
+    "Brad Swaile",
+    "Vincent Tong",
+    "Ryè Naitè"
+  ],
+  "num_mflix_comments": 2,
+  "poster": "https://m.media-amazon.com/images/M/MV5BODkzMjhjYTQtYmQyOS00NmZlLTg3Y2UtYjkzN2JkNmRjY2FhXkEyXkFqcGdeQXVyNTM4MDQ5MDc@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Death Note",
+  "fullplot": "After an intelligent yet cynical high school student begins to cleanse the world from evil with the help of a magical notebook that can kill anyone whose name is written on it, international authorities call upon a mysterious detective known as \"L\" to thwart his efforts.",
+  "languages": [
+    "Japanese"
+  ],
+  "released": {
+    "$date": "2006-10-03T00:00:00Z"
+  },
+  "rated": "TV-14",
+  "awards": {
+    "wins": 2,
+    "nominations": 0,
+    "text": "2 wins."
+  },
+  "lastupdated": "2015-09-04 00:00:47.083000000",
+  "year": "2006è2007",
+  "imdb": {
+    "rating": 9,
+    "votes": 83811,
+    "id": 877057
+  },
+  "countries": [
+    "Japan"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.3,
+      "numReviews": 217,
+      "meter": 56
+    },
+    "lastUpdated": {
+      "$date": "2015-07-20T19:10:59Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13bbf29313caabd54ee6"
+  },
+  "plot": "The life of a public school epitomized by disobedient student Jonah Takalua, self-absorbed private school exchange student Ja'mie King, and megalomaniac drama teacher Mr. G.",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Family"
+  ],
+  "runtime": 30,
+  "cast": [
+    "Chris Lilley",
+    "Asolima Tauati",
+    "Iro Utaifeau",
+    "Zach Fa'atoe"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BODAxZGI4N2MtOTVhNi00MzhmLWIxYzItMzNkY2E0ZjQwY2VhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Summer Heights High",
+  "fullplot": "The life of a public school epitomized by disobedient student Jonah Takalua, self-absorbed private school exchange student Ja'mie King, and megalomaniac drama teacher Mr. G.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2008-11-09T00:00:00Z"
+  },
+  "rated": "TV-MA",
+  "awards": {
+    "wins": 4,
+    "nominations": 4,
+    "text": "4 wins & 4 nominations."
+  },
+  "lastupdated": "2015-08-27 00:21:39.963000000",
+  "year": "2007è",
+  "imdb": {
+    "rating": 8.5,
+    "votes": 10372,
+    "id": 934320
+  },
+  "countries": [
+    "Australia"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.2,
+      "numReviews": 34
+    },
+    "lastUpdated": {
+      "$date": "2015-07-04T18:23:53Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13bcf29313caabd5726e"
+  },
+  "plot": "In the 1840s, Cranford is ruled by the ladies. They adore good gossip; and romance and change is in the air, as the unwelcome grasp of the Industrial Revolution rapidly approaches their beloved rural market-town.",
+  "genres": [
+    "Drama"
+  ],
+  "runtime": 60,
+  "cast": [
+    "Judi Dench",
+    "Julia McKenzie",
+    "Imelda Staunton",
+    "Lisa Dillon"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BYjQxZWRkM2QtYTRmMC00ODM2LTgzOWEtNDcyOWY5Njc3MWIyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Cranford",
+  "fullplot": "In the 1840s, Cranford is ruled by the ladies. They adore good gossip; and romance and change is in the air, as the unwelcome grasp of the Industrial Revolution rapidly approaches their beloved rural market-town.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2008-05-04T00:00:00Z"
+  },
+  "writers": [
+    "Sue Birtwistle",
+    "Susie Conklin"
+  ],
+  "awards": {
+    "wins": 20,
+    "nominations": 34,
+    "text": "Nominated for 4 Golden Globes. Another 16 wins & 34 nominations."
+  },
+  "lastupdated": "2015-07-22 00:50:17.407000000",
+  "year": "2007è",
+  "imdb": {
+    "rating": 8.5,
+    "votes": 5476,
+    "id": 974077
+  },
+  "countries": [
+    "UK",
+    "USA"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 4.2,
+      "numReviews": 290,
+      "meter": 90
+    },
+    "dvd": {
+      "$date": "2008-05-20T00:00:00Z"
+    },
+    "production": "Warner Home Video",
+    "lastUpdated": {
+      "$date": "2015-08-02T19:19:48Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13bdf29313caabd586eb"
+  },
+  "plot": "The vampire Alucard and his newly sired ward Seras tries to protect England from a war-crazed SS-Major who seeks to start an eternal war with his vampire army.",
+  "genres": [
+    "Animation",
+    "Action",
+    "Fantasy"
+  ],
+  "runtime": 50,
+  "rated": "TV-MA",
+  "cast": [
+    "Katie Gray",
+    "Victoria Harwood",
+    "Crispin Freeman",
+    "Ralph Lister"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BYTU5ZWExZjktMmI5MC00MjUwLTk0MjAtNDExMDk1ZDUzZWY3XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Hellsing Ultimate",
+  "fullplot": "In flashback, Integra is seen assuming leadership of the Hellsing organization as she resolves a conflict with her uncle with the help of the vampire Alucard. In present day, Alucard goes on a mission to the town of Cheddar to silence a vampiric priest who has been killing townspeople, and in the process must also present the young police girl Seras Victoria with the choice to either die or become a vampire. Also, Alucard battles a Vatican priest named Alexander Anderson after they are both sent to kill the same vampire in Northern Ireland.",
+  "languages": [
+    "Japanese"
+  ],
+  "released": {
+    "$date": "2006-12-05T00:00:00Z"
+  },
+  "writers": [
+    "Kohta Hirano"
+  ],
+  "awards": {
+    "wins": 5,
+    "nominations": 3,
+    "text": "5 wins & 3 nominations."
+  },
+  "lastupdated": "2015-09-05 08:36:26.777000000",
+  "year": "2006è2012",
+  "imdb": {
+    "rating": 8.5,
+    "votes": 8880,
+    "id": 495212
+  },
+  "countries": [
+    "Japan"
+  ],
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13bef29313caabd5b166"
+  },
+  "countries": [
+    "Russia"
+  ],
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "runtime": 45,
+  "cast": [
+    "Vladimir Mashkov",
+    "Mikhail Porechenkov",
+    "Vladimir Menshov",
+    "Sergey Makovetskiy"
+  ],
+  "num_mflix_comments": 3,
+  "title": "Liquidation",
+  "lastupdated": "2015-04-08 00:08:01.207000000",
+  "languages": [
+    "Russian",
+    "Ukrainian"
+  ],
+  "released": {
+    "$date": "2007-12-02T00:00:00Z"
+  },
+  "awards": {
+    "wins": 5,
+    "nominations": 3,
+    "text": "5 wins & 3 nominations."
+  },
+  "year": "2007è",
+  "imdb": {
+    "rating": 8.6,
+    "votes": 929,
+    "id": 1048097
+  },
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 1.9,
+      "numReviews": 83,
+      "meter": 23
+    },
+    "lastUpdated": {
+      "$date": "2015-09-13T17:10:27Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13c5f29313caabd6ea1d"
+  },
+  "plot": "Poor girl attends the elite Shin Hwa High and is bullied by the leader of F4 (the four richest boys). He becomes attracted to her; however, she has a crush on his best friend. Whom will she choose?",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "runtime": 70,
+  "cast": [
+    "Hye-sun Koo",
+    "Min-ho Lee",
+    "Hyun-joong Kim",
+    "Bum Kim"
+  ],
+  "title": "Boys Over Flowers",
+  "fullplot": "Poor girl Jan Di attends elite Shin Hwa High where she's bullied by Joon Pyo, leader of F4 (the four richest and most gorgeous boys). Joon Pyo becomes attracted to Jan Di; however, Jan Di has a crush on Yoon Ji Hoo, Joon Pyo's best friend. This is a Cinderella story about the F4 friends and the normal girl who manages to break into their clique and win their friendship along with the romantic affections of two of the four.",
+  "languages": [
+    "Korean"
+  ],
+  "released": {
+    "$date": "2009-01-05T00:00:00Z"
+  },
+  "awards": {
+    "wins": 2,
+    "nominations": 0,
+    "text": "2 wins."
+  },
+  "lastupdated": "2015-09-02 00:09:51.083000000",
+  "year": "2009è",
+  "imdb": {
+    "rating": 8.4,
+    "votes": 2740,
+    "id": 1370334
+  },
+  "countries": [
+    "South Korea"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 3.2,
+      "numReviews": 96,
+      "meter": 52
+    },
+    "dvd": {
+      "$date": "2010-05-11T00:00:00Z"
+    },
+    "lastUpdated": {
+      "$date": "2015-07-06T20:35:28Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13cbf29313caabd7ecd4"
+  },
+  "plot": "In 2006, director Spike Lee created an astonishing record of the cataclysmic effects of Hurricane Katrina on the city of New Orleans with his epic award-winning documentary, When the Levees...",
+  "genres": [
+    "Documentary"
+  ],
+  "countries": [
+    "USA"
+  ],
+  "cast": [
+    "Calvin Mackie",
+    "Mitch Landrieu",
+    "Jacques Morial",
+    "Fred Johnson"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE5MDU4N15BMl5BanBnXkFtZTcwNzg2NDM3Mw@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "If God Is Willing and da Creek Don't Rise",
+  "fullplot": "In 2006, director Spike Lee created an astonishing record of the cataclysmic effects of Hurricane Katrina on the city of New Orleans with his epic award-winning documentary, When the Levees Broke. Five years later, Lee returns to New Orleans, to see how the ambitious plans to reinvent the Crescent City were playing out. He finds a patchwork of hope and heartache just as a new disaster unfolds. The four-hour documentary is a continuation of the heart-rending story of destruction and rebirth of America's most unique city.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2010-08-23T00:00:00Z"
+  },
+  "awards": {
+    "wins": 4,
+    "nominations": 3,
+    "text": "Nominated for 2 Primetime Emmys. Another 2 wins & 3 nominations."
+  },
+  "lastupdated": "2015-09-15 02:07:26.793000000",
+  "year": "2010è",
+  "imdb": {
+    "rating": 7.2,
+    "votes": 352,
+    "id": 1587373
+  },
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13c9f29313caabd7b18c"
+  },
+  "countries": [
+    "USA"
+  ],
+  "cast": [
+    "Jimmy Smits"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMjI5NjMxNjIyNF5BMl5BanBnXkFtZTgwMzg4OTcwMzE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Latin Music USA",
+  "lastupdated": "2015-07-20 00:25:27.043000000",
+  "languages": [
+    "Spanish",
+    "English"
+  ],
+  "released": {
+    "$date": "2009-10-12T00:00:00Z"
+  },
+  "awards": {
+    "wins": 0,
+    "nominations": 1,
+    "text": "1 nomination."
+  },
+  "year": "2009è",
+  "imdb": {
+    "rating": 8.2,
+    "votes": 6,
+    "id": 1541777
+  },
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 0.5,
+      "numReviews": 13
+    },
+    "lastUpdated": {
+      "$date": "2015-08-21T18:20:33Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13c7f29313caabd75324"
+  },
+  "plot": "Survivors of an alien attack on earth gather together to fight for their lives and fight back.",
+  "genres": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "runtime": 42,
+  "rated": "TV-14",
+  "cast": [
+    "Noah Wyle",
+    "Maxim Knight",
+    "Drew Roy",
+    "Will Patton"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BMjE3NzI2MzYwOF5BMl5BanBnXkFtZTcwMjc1MDQ4NA@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Falling Skies",
+  "fullplot": "The chaotic aftermath of an alien attack has left most of the world completely incapacitated. In the six months since the initial invasion, the few survivors have banded together outside major cities to begin the difficult task of fighting back. Each day is a test of survival as citizen soldiers work to protect the people in their care while also engaging in an insurgency campaign against the occupying alien force.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2011-06-19T00:00:00Z"
+  },
+  "writers": [
+    "Robert Rodat"
+  ],
+  "awards": {
+    "wins": 5,
+    "nominations": 27,
+    "text": "Nominated for 2 Primetime Emmys. Another 3 wins & 27 nominations."
+  },
+  "lastupdated": "2015-08-23 00:00:54.157000000",
+  "year": "2011è",
+  "imdb": {
+    "rating": 7.3,
+    "votes": 67100,
+    "id": 1462059
+  },
+  "countries": [
+    "USA",
+    "Canada"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 5,
+      "numReviews": 3
+    },
+    "website": "http://www.fallingupmovie.com/",
+    "lastUpdated": {
+      "$date": "2015-09-11T17:26:59Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13cff29313caabd89977"
+  },
+  "plot": "The first ever ropeless climb of Yosemites sheer 2,000 foot wall of Half Dome. The longest BASE jump achieved...",
+  "genres": [
+    "Adventure",
+    "Sport"
+  ],
+  "runtime": 30,
+  "title": "First Ascent",
+  "countries": [
+    "USA"
+  ],
+  "lastupdated": "2015-07-18 00:48:02.333000000",
+  "languages": [
+    "English"
+  ],
+  "cast": [
+    "Nick Rosen"
+  ],
+  "writers": [
+    "Peter Mortimer",
+    "Nick Rosen",
+    "Laura Annalora"
+  ],
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "year": "2010è",
+  "imdb": {
+    "rating": 8.4,
+    "votes": 40,
+    "id": 1735363
+  },
+  "type": "series",
+  "tomatoes": {
+    "website": "http://www.francinethefilm.com/",
+    "viewer": {
+      "rating": 2.8,
+      "numReviews": 205,
+      "meter": 30
+    },
+    "critic": {
+      "rating": 6.1,
+      "numReviews": 20,
+      "meter": 60
+    },
+    "lastUpdated": {
+      "$date": "2015-06-16T19:12:00Z"
+    },
+    "rotten": 8,
+    "production": "Washington Square Films",
+    "fresh": 12
+  }
+},{
+  "_id": {
+    "$oid": "573a13cdf29313caabd83c05"
+  },
+  "plot": "In this comprehensive cosmology series Stephen Hawking looks at the entire universe, from the Big Bang to the end of time.",
+  "genres": [
+    "Documentary"
+  ],
+  "countries": [
+    "UK"
+  ],
+  "cast": [
+    "Benedict Cumberbatch",
+    "Stephen Hawking"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTkyNTAwMTk2Ml5BMl5BanBnXkFtZTgwMDA2NjE0MzE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Stephen Hawking's Universe",
+  "fullplot": "In this comprehensive cosmology series Stephen Hawking looks at the entire universe, from the Big Bang to the end of time.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2010-04-25T00:00:00Z"
+  },
+  "awards": {
+    "wins": 0,
+    "nominations": 2,
+    "text": "2 nominations."
+  },
+  "lastupdated": "2015-08-10 00:15:48.737000000",
+  "year": "2010è",
+  "imdb": {
+    "rating": 8.7,
+    "votes": 3505,
+    "id": 1655078
+  },
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13d2f29313caabd92d3b"
+  },
+  "plot": "THIRD REICH: THE RISE & FALL tells the story of Hitler's Germany through rarely seen films of the people who were there. Immersive and evocative, it takes viewers inside the Germany of the ...",
+  "genres": [
+    "Documentary"
+  ],
+  "runtime": 180,
+  "cast": [
+    "Adolf Hitler",
+    "Wibke Bruhns"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NTkyOTYwMV5BMl5BanBnXkFtZTcwMzM3NzQxOQ@@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Third Reich: The Rise & Fall",
+  "fullplot": "THIRD REICH: THE RISE & FALL tells the story of Hitler's Germany through rarely seen films of the people who were there. Immersive and evocative, it takes viewers inside the Germany of the 20s, 30s, and early 40s, through the use of rare and never-before-seen home movies, Nazi propaganda films and other contemporaneous material. The narrative consists of personal recollections culled from German's diaries, journals and letters. The end result is an intimate, richly nuanced and authentic portrait of the Third Reich and its people.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2010-12-14T00:00:00Z"
+  },
+  "awards": {
+    "wins": 0,
+    "nominations": 2,
+    "text": "2 nominations."
+  },
+  "lastupdated": "2015-07-12 00:09:21.763000000",
+  "year": "2010è",
+  "imdb": {
+    "rating": 8.5,
+    "votes": 482,
+    "id": 1855924
+  },
+  "countries": [
+    "USA"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 0,
+      "numReviews": 0
+    },
+    "lastUpdated": {
+      "$date": "2014-10-20T21:31:39Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13d5f29313caabd9d89c"
+  },
+  "plot": "The murder of Emili, a young girl, leaves the inhabitants of a small Japanese village in shock. The body of Emily is found by the four classmates with whom she was playing. The murder is ...",
+  "genres": [
+    "Mystery"
+  ],
+  "runtime": 270,
+  "metacritic": 58,
+  "cast": [
+    "Hazuki Kimura",
+    "Manatsu Kimura",
+    "Kyèko Koizumi",
+    "Asumi Kikuchi"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTc0MDI0NTczMl5BMl5BanBnXkFtZTgwOTQyMTc5MjE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Penance",
+  "fullplot": "The murder of Emili, a young girl, leaves the inhabitants of a small Japanese village in shock. The body of Emily is found by the four classmates with whom she was playing. The murder is never solved. Emili's mother Asako (Kyoko Koizumi) is torn by grief and puts a curse on the four girls when they claim that they don't remember the killer's face. Each of the girls, in their own way, will do their penance for their silence. Deeply struck by the words of Asako and burdened with her curse, the four girls are forced into adulthood which eventually triggers a tragic chain of events.",
+  "languages": [
+    "Japanese"
+  ],
+  "released": {
+    "$date": "2012-01-08T00:00:00Z"
+  },
+  "awards": {
+    "wins": 1,
+    "nominations": 1,
+    "text": "1 win & 1 nomination."
+  },
+  "lastupdated": "2015-08-27 00:20:32.947000000",
+  "year": "2012è",
+  "imdb": {
+    "rating": 7.2,
+    "votes": 570,
+    "id": 2043616
+  },
+  "countries": [
+    "Japan"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "website": "http://www.musicboxfilms.com/penance",
+    "viewer": {
+      "rating": 2.1,
+      "numReviews": 292,
+      "meter": 16
+    },
+    "dvd": {
+      "$date": "2009-11-17T00:00:00Z"
+    },
+    "critic": {
+      "rating": 5.7,
+      "numReviews": 5,
+      "meter": 80
+    },
+    "lastUpdated": {
+      "$date": "2015-07-26T18:00:11Z"
+    },
+    "rotten": 1,
+    "production": "Doppelgènger Releasing",
+    "fresh": 4
+  }
+},{
+  "_id": {
+    "$oid": "573a13d7f29313caabda189f"
+  },
+  "plot": "Vintage footage from the Vietnam war is presented in High Definition video format along with narration from both war veterans and Hollywood voice talent. The documentary follows key events ...",
+  "genres": [
+    "Documentary"
+  ],
+  "runtime": 360,
+  "cast": [
+    "Edward Burns",
+    "Tempestt Bledsoe",
+    "Dean Cain",
+    "Jerry Ferrara"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNzkzMzA2OV5BMl5BanBnXkFtZTgwMTIyNjY0MTE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Vietnam in HD",
+  "fullplot": "Vintage footage from the Vietnam war is presented in High Definition video format along with narration from both war veterans and Hollywood voice talent. The documentary follows key events and their impact on both the war effort and the American public.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2011-11-08T00:00:00Z"
+  },
+  "awards": {
+    "wins": 2,
+    "nominations": 0,
+    "text": "2 wins."
+  },
+  "lastupdated": "2015-09-01 00:10:01.880000000",
+  "year": "2011è",
+  "imdb": {
+    "rating": 8.2,
+    "votes": 863,
+    "id": 2109059
+  },
+  "countries": [
+    "USA"
+  ],
+  "type": "series",
+  "tomatoes": {
+    "viewer": {
+      "rating": 0,
+      "numReviews": 0
+    },
+    "lastUpdated": {
+      "$date": "2015-06-13T19:14:54Z"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "573a13d9f29313caabda87b7"
+  },
+  "plot": "Follows the life of transgender contract killer Mia, who travels to West Yorkshire to seek out her ex girlfriend.",
+  "genres": [
+    "Drama"
+  ],
+  "title": "Hit & Miss",
+  "num_mflix_comments": 2,
+  "poster": "https://m.media-amazon.com/images/M/MV5BOWFiZjBmOWItMDVjYi00ZjI0LTgzODgtMmFkMTdlNDVmODY3XkEyXkFqcGdeQXVyMjM2Mzk0MDk@._V1_SY1000_SX677_AL_.jpg",
+  "countries": [
+    "UK"
+  ],
+  "fullplot": "Follows the life of transgender contract killer Mia, who travels to West Yorkshire to seek out her ex girlfriend.",
+  "languages": [
+    "English"
+  ],
+  "cast": [
+    "Jonas Armstrong",
+    "Chloè Sevigny",
+    "Karla Crome",
+    "Reece Noi"
+  ],
+  "writers": [
+    "Paul Abbott"
+  ],
+  "awards": {
+    "wins": 0,
+    "nominations": 3,
+    "text": "3 nominations."
+  },
+  "lastupdated": "2015-08-27 00:12:50.697000000",
+  "year": "2012è",
+  "imdb": {
+    "rating": 7.9,
+    "votes": 3747,
+    "id": 2232345
+  },
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13dbf29313caabdae27b"
+  },
+  "countries": [
+    "USA"
+  ],
+  "genres": [
+    "Documentary"
+  ],
+  "cast": [
+    "Cindy Roach",
+    "Gerald Berenson",
+    "Peter Katzmarzyk",
+    "Stephanie Broyles"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTQ3NjExNzk3Ml5BMl5BanBnXkFtZTgwMjYyNTAxMzE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "The Weight of the Nation",
+  "lastupdated": "2015-07-31 00:04:27.097000000",
+  "languages": [
+    "English",
+    "Spanish"
+  ],
+  "released": {
+    "$date": "2012-05-14T00:00:00Z"
+  },
+  "awards": {
+    "wins": 0,
+    "nominations": 3,
+    "text": "Nominated for 1 Primetime Emmy. Another 2 nominations."
+  },
+  "year": "2012è",
+  "imdb": {
+    "rating": 7.4,
+    "votes": 86,
+    "id": 2327631
+  },
+  "type": "series",
+  "tomatoes": {
+    "website": "http://theweightofthenation.hbo.com/films/bonus-shorts/the-quest-to-understand-t",
+    "viewer": {
+      "rating": 4.2,
+      "numReviews": 23
+    },
+    "critic": {
+      "rating": 8.8,
+      "numReviews": 8,
+      "meter": 88
+    },
+    "lastUpdated": {
+      "$date": "2015-08-18T19:35:13Z"
+    },
+    "rotten": 1,
+    "production": "HBO",
+    "fresh": 7
+  }
+},{
+  "_id": {
+    "$oid": "573a13e9f29313caabdcc269"
+  },
+  "plot": "The story behind Hitler's plan of Germany getting the atomic bomb during WW2, and the heavy water sabotages in Rjukan, Norway, seen from four angles, the German side, the allied, the saboteurs and the company side.",
+  "genres": [
+    "Drama",
+    "History",
+    "War"
+  ],
+  "runtime": 45,
+  "cast": [
+    "Andreas Dèhler",
+    "Robert Hunger-Bèhler",
+    "Marc Benjamin Puch",
+    "Christoph Bach"
+  ],
+  "num_mflix_comments": 5,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTU4NTU0NDc5OV5BMl5BanBnXkFtZTgwMjc0ODk1NTE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "The Saboteurs",
+  "fullplot": "The story behind Hitler's plan of Germany getting the atomic bomb during WW2, and the heavy water sabotages in Rjukan, Norway, seen from four angles, the German side, the allied, the saboteurs and the company side.",
+  "languages": [
+    "Norwegian",
+    "English",
+    "German",
+    "Danish"
+  ],
+  "released": {
+    "$date": "2015-01-04T00:00:00Z"
+  },
+  "awards": {
+    "wins": 2,
+    "nominations": 0,
+    "text": "2 wins."
+  },
+  "lastupdated": "2015-09-07 00:56:17.810000000",
+  "year": "2015è",
+  "imdb": {
+    "rating": 8.4,
+    "votes": 1788,
+    "id": 3280150
+  },
+  "countries": [
+    "Norway"
+  ],
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13eaf29313caabdcfbc1"
+  },
+  "plot": "A documentary that weaves together the stories of Theodore, Franklin and Eleanor Roosevelt, three members of one of the most prominent and influential families in American politics.",
+  "genres": [
+    "Documentary"
+  ],
+  "countries": [
+    "USA"
+  ],
+  "cast": [
+    "Meryl Streep",
+    "Edward Herrmann",
+    "Doris Kearns Goodwin",
+    "Franklin D. Roosevelt"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMDNlZWM2MDUtOWRlYi00MGQ3LTgxOGEtY2UxYmMwYjIxYWYxXkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_SY1000_SX677_AL_.jpg",
+  "title": "The Roosevelts: An Intimate History",
+  "fullplot": "A documentary that weaves together the stories of Theodore, Franklin and Eleanor Roosevelt, three members of one of the most prominent and influential families in American politics.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2014-09-14T00:00:00Z"
+  },
+  "awards": {
+    "wins": 3,
+    "nominations": 4,
+    "text": "Nominated for 2 Primetime Emmys. Another 1 win & 4 nominations."
+  },
+  "lastupdated": "2015-08-23 00:10:24.657000000",
+  "year": "2014è",
+  "imdb": {
+    "rating": 8.8,
+    "votes": 682,
+    "id": 3400010
+  },
+  "type": "series"
+},{
+  "_id": {
+    "$oid": "573a13f1f29313caabddc613"
+  },
+  "plot": "While investigating terrorist activity on the distant colony world of Sedra, Jameson Locke and his team are caught in a horrific biological attack that exposes them to a much deeper danger.",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "runtime": 30,
+  "cast": [
+    "Steven Waddington",
+    "Siennah Buck",
+    "Mike Colter",
+    "Christian Contreras"
+  ],
+  "num_mflix_comments": 1,
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NTQwNzU2OV5BMl5BanBnXkFtZTgwNzkxOTQ0MzE@._V1_SY1000_SX677_AL_.jpg",
+  "title": "Halo: Nightfall",
+  "fullplot": "In the 28th Century, the prolonged war between humanity and the fanatical alien alliance the Covenant has ended with a tenuous treaty. Despite the ceasefire, Earth's outer colonies remain vulnerable to the Covenant's covert intrusions. The ONI - Office of Naval Intelligence has been tasked with counterintelligence to beat the Covenant. In Planet Sedra, Commander Jameson Locke and his team witness a Covenant's spacecraft and a Zealot Elite warrior disembarks with a bomb. They unsuccessfully try to stop the alien that explodes the bomb in a mall. They realize that it is a biological attack with an element fatal to humans. Sedran Commander Aiken captures the middleman Axl that tells that the element is obtained from Alpha Halo, where the day longs 16 h and the temperature in the sunlight reaches 482o C. Aiken, Locke and his team head to Halo in the spacecraft Condor with pilot Macer carrying a Havoc weapon to destroy the place. On the arrival, they find two terrorists but are trapped in Halo by weird worms that are attracted by technology. And in five hours the sun will rise.",
+  "languages": [
+    "English"
+  ],
+  "released": {
+    "$date": "2014-11-11T00:00:00Z"
+  },
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "lastupdated": "2015-08-20 00:40:26.313000000",
+  "year": "2014è",
+  "imdb": {
+    "rating": 5.7,
+    "votes": 2640,
+    "id": 3804114
+  },
+  "type": "series"
+}]
