@@ -14,6 +14,8 @@ group by address;
 4) for that movie, the number of rentals per year (or month)
 */
 
+use sakila;
+
 SELECT COUNT(*) AS total_movies
 FROM film;
 
@@ -33,22 +35,32 @@ GROUP BY f.title
 ORDER BY rental_count DESC
 LIMIT 5;
 
+/*---*/
 select 
-	year(rental_dget_rentalDate_by_customer_idate) as rental_year, 
+    f.film_id,
+    f.title,
     count(*) as rentals
 from rental as r
-join inventory as i on r.inventory_id=i.inventory_id
-where i.film_id=103
-group by rental_year;
+join inventory as i on r.inventory_id = i.inventory_id
+join film as f on i.film_id = f.film_id
+group by f.film_id, f.title
+order by rentals desc
+limit 1;
 
 select 
-	year(rental_date) as rental_year, 
-    month(rental_date) as rental_month,
+    year(r.rental_date) as rental_year,
+    month(r.rental_date) as rental_month,
     count(*) as rentals
 from rental as r
-join inventory as i on r.inventory_id=i.inventory_id
-where i.film_id=103
-group by 
-	rental_year, 
-    rental_month
-order by rental_month desc;
+join inventory as i on r.inventory_id = i.inventory_id
+where i.film_id = (
+    select f.film_id
+    from rental as r
+    join inventory as i on r.inventory_id = i.inventory_id
+    join film as f on i.film_id = f.film_id
+    group by f.film_id
+    order by count(*) desc
+    limit 1
+)
+group by rental_year, rental_month
+order by rental_year, rental_month; 
