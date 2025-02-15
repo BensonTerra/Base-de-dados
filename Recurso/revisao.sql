@@ -155,8 +155,7 @@ film_actor as t5 on t6.actor_id = t5.actor_id
 where
 -- t1.film_id = t5.film_id AND -- Vincula o ID do filme com os atores que participaram dele
 -- t5.actor_id = t6.actor_id AND -- link actor_id com first_name e last_name
-t1.film_id = 1 AND
-t5.actor_id is not NULL
+t1.film_id = 1 AND t5.actor_id is not NULL
 
 ORDER BY t1.title, t5.actor_id;
 
