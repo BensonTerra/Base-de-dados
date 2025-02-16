@@ -1,0 +1,338 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook",
+    "content": "SELECT * from film where title LIKE '%super%' ORDER BY title ASC limit 5\n\nSELECT \n    f.film_id, f.title, f.length, f.release_year\nfrom film f\nJOIN film_category fc on f.film_id = fc.film_id\nJOIN category c on fc.category_id = c.category_id\nlimit 5\n\nselect \n    f.title, f.release_year\nfrom film f\njoin film_actor fa on f.film_id = fa.film_id\njoin actor a on fa.actor_id = a.actor_id\nWHERE\n    a.first_name = 'Henry' AND\n    a.last_name = 'Fonda'\nlimit 5\n\nSELECT DISTINCT rental_duration AS possible_duration, \n    title AS film_title\nFROM film\nORDER BY rental_duration, title\nlimit 10\n\n\nSELECT\n    cu.first_name,cu.last_name,cu.email,a.address,ci.city,co.country\nfrom customer cu\njoin address a on cu.address_id = a.address_id\njoin city ci on a.city_id = ci.city_id\njoin country co on ci.country_id = co.country_id\nwhere \n    ci.city = 'Paris' and \n    co.country = 'France'\nORDER BY country\n\nSELECT first_name,last_name FROM actor where first_name LIKE 'Henr%'\nSELECT COUNT(*) / 365.0 AS avg_rentals_per_day \nFROM rental \nWHERE YEAR(rental_date) = 2005;\nSELECT DATE(rental_date) AS rental_day, \n       COUNT(*) AS rentals_count\nFROM rental\n/*WHERE rental_date BETWEEN '2025-12-01' AND '2023-12-31'*/\nGROUP BY rental_day\nORDER BY rental_day;\n\n\nSELECT ci.city AS city_name, COUNT(st.store_id) AS store_count\nFROM city AS ci\nJOIN address AS a ON ci.city_id = a.city_id\nJOIN store AS st ON a.address_id = st.address_id\nGROUP BY ci.city\n/*HAVING COUNT(st.store_id) > 5*/\nORDER BY store_count DESC;\n\n\nSELECT st.store_id, \n       a.address, \n       ci.city, \n       co.country\nFROM store AS st\nJOIN address AS a ON st.address_id = a.address_id\nJOIN city AS ci ON a.city_id = ci.city_id\nJOIN country AS co ON ci.country_id = co.country_id\nORDER BY ci.city, st.store_id;\n\n-- Verificar o pagamento registrado\nSELECT payment_id, customer_id, rental_id, staff_id, amount, payment_date\nFROM payment\n/*WHERE customer_id = 5 AND rental_id = 13209*/\nORDER BY payment_date DESC, customer_id ASC\nLIMIT 5\n-- Inserir o pagamento\nINSERT INTO payment (customer_id, rental_id, staff_id, amount, payment_date)\nVALUES (5, 13209, 1, 4.99, NOW());\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": false,
+                "selectionStart": {
+                    "lineNumber": 21,
+                    "column": 5
+                },
+                "position": {
+                    "lineNumber": 21,
+                    "column": 5
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 1,
+                "column": 1
+            },
+            "firstPositionDeltaTop": 0
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 2,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 73
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 3,
+                "end": 9,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 175
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 10,
+                "end": 19,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 205
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 20,
+                "end": 26,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 131
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 27,
+                "end": 37,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 305
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 38,
+                "end": 38,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 68
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 39,
+                "end": 41,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 92
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 42,
+                "end": 49,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 186
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 186,
+                            "length": 2
+                        },
+                        "contentStart": 185,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 50,
+                "end": 58,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 249
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 249,
+                            "length": 2
+                        },
+                        "contentStart": 248,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 59,
+                "end": 68,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 266
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 266,
+                            "length": 1
+                        },
+                        "contentStart": 265,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 69,
+                "end": 74,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 222
+                        },
+                        "contentStart": 36,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 75,
+                "end": 77,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 134
+                        },
+                        "contentStart": 23,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 134,
+                            "length": 0
+                        },
+                        "contentStart": 133,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 78,
+                "end": 78,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
