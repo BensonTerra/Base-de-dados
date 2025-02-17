@@ -1,16 +1,58 @@
-db.Filmes.find({countries:{$in:["USA"]}},{_id:0,title:1,countries:1,type:1})
-db.Filmes.find({ $and: [ {type: "series"}, {languages: {$in: ['Japanese']}} ]},{_id:0,title:1,languages:1,type:1})
+db.moveies.find(
+  {
+    countries:
+    {
+      $in:["USA"]
+    }
+  },
+  {
+    _id:1,
+    title:1,
+    countries:1
+  }
+).limit(3)
 
+db.movies.find(
+  { 
+    $and: [ 
+      {type: "series"}, 
+      {languages: {$in: ['Japanese']} } 
+    ]
+  },
+  {
+    _id:0,
+    title:1,
+    languages:1,
+    type:1
+  }
+).limit(3)
 
 db.moveies.find(
-    {countries:
-        {
-            $in:["USA"]
-        }
-    },
+  {
+    rating:
     {
-        _id:1,
-        title:1,
-        countries:1
+      $gte: 7.5, 
+      $lte: 8.5
     }
+  },
+  {
+    _id:1,
+    title:1,
+    rating:1,
+    countries:1
+  }
+).limit(3)
+
+db.moveies.find(
+  {
+    genres: 
+    {
+      $in: ["Adventure"],
+    }
+  },
+  {
+    _id:1,
+    title:1,
+    countries:1
+  }
 ).limit(3)
