@@ -1,0 +1,882 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook",
+    "content": "SELECT \n    *\nfrom \n    film t1\nwhere \n    t1.title LIKE '%super%' \nORDER BY \n    t1.title ASC \nlimit 5\nSELECT \n    f.film_id,f.title,f.length,f.release_year\nFROM \n    film f\nWHERE\n    f.length > 120\nORDER BY \n    f.title ASC \nlimit 5\nSELECT DISTINCT\n    t1.title,t1.release_year,\n    t3.first_name,t3.last_name\nFROM \n    film t1\nJOIN film_actor as t2 on t1.film_id = t2.film_id\nJOIN actor as t3 on t2.actor_id = t3.actor_id\nWHERE\n    t3.first_name = 'Henry' AND\n    t3.last_name = 'Fonda'\nlimit 5\nSELECT \n    rental_duration as \"rental duration(days)\", \n    COUNT(*) AS total_filmes\nFROM \n    film\nGROUP BY \n    rental_duration\nORDER BY \n    total_filmes DESC;\n\nSELECT  \n    cu.first_name,cu.last_name,\n    ad.address,ct.city,co.country\nFROM\n    customer cu\njoin\n    address as ad on cu.customer_id = ad.address_id\njoin\n    city as ct  on ad.city_id = ct.city_id\nJOIN\n    country as co on ct.country_id = co.country_id\nWHERE\n    co.country = 'France' \nLIMIT 5\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": false,
+                "selectionStart": {
+                    "lineNumber": 54,
+                    "column": 1
+                },
+                "position": {
+                    "lineNumber": 54,
+                    "column": 1
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 26,
+                "column": 1
+            },
+            "firstPositionDeltaTop": -15
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 9,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "1080382e-049f-46c2-d958-e7f0fc5de870"
+                    ]
+                },
+                "currentHeight": 36,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 103
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "1080382e-049f-46c2-d958-e7f0fc5de870",
+                    "rows": [
+                        {
+                            "0": 123,
+                            "1": "CASABLANCA SUPER",
+                            "2": "A Amazing Panorama of a Crocodile And a Forensic Psychologist who must Pursue a Secret Agent in The First Manned Space Station",
+                            "3": 2006,
+                            "4": 1,
+                            "5": null,
+                            "6": 6,
+                            "7": "4.99",
+                            "8": 85,
+                            "9": "22.99",
+                            "10": "G",
+                            "11": "Trailers,Deleted Scenes,Behind the Scenes",
+                            "12": "2006-02-15 05:03:42"
+                        },
+                        {
+                            "0": 790,
+                            "1": "SHOOTIST SUPERFLY",
+                            "2": "A Fast-Paced Story of a Crocodile And a A Shark who must Sink a Pioneer in Berlin",
+                            "3": 2006,
+                            "4": 1,
+                            "5": null,
+                            "6": 6,
+                            "7": "0.99",
+                            "8": 67,
+                            "9": "22.99",
+                            "10": "PG-13",
+                            "11": "Trailers",
+                            "12": "2006-02-15 05:03:42"
+                        },
+                        {
+                            "0": 867,
+                            "1": "SUPER WYOMING",
+                            "2": "A Action-Packed Saga of a Pastry Chef And a Explorer who must Discover a A Shark in The Outback",
+                            "3": 2006,
+                            "4": 1,
+                            "5": null,
+                            "6": 5,
+                            "7": "4.99",
+                            "8": 58,
+                            "9": "10.99",
+                            "10": "PG",
+                            "11": "Trailers,Commentaries,Behind the Scenes",
+                            "12": "2006-02-15 05:03:42"
+                        },
+                        {
+                            "0": 868,
+                            "1": "SUPERFLY TRIP",
+                            "2": "A Beautiful Saga of a Lumberjack And a Teacher who must Build a Technical Writer in An Abandoned Fun House",
+                            "3": 2006,
+                            "4": 1,
+                            "5": null,
+                            "6": 5,
+                            "7": "0.99",
+                            "8": 114,
+                            "9": "27.99",
+                            "10": "PG",
+                            "11": "Commentaries,Behind the Scenes",
+                            "12": "2006-02-15 05:03:42"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "film_id",
+                            "field": "0",
+                            "dataType": {
+                                "type": 2,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 5,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INT2"
+                                ]
+                            },
+                            "inPK": true,
+                            "nullable": false,
+                            "autoIncrement": true
+                        },
+                        {
+                            "title": "title",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "description",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        },
+                        {
+                            "title": "release_year",
+                            "field": "3",
+                            "dataType": {
+                                "type": 1,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 3,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "BOOL",
+                                    "BOOLEAN",
+                                    "INT1"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        },
+                        {
+                            "title": "language_id",
+                            "field": "4",
+                            "dataType": {
+                                "type": 1,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 3,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "BOOL",
+                                    "BOOLEAN",
+                                    "INT1"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "original_language_id",
+                            "field": "5",
+                            "dataType": {
+                                "type": 1,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 3,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "BOOL",
+                                    "BOOLEAN",
+                                    "INT1"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        },
+                        {
+                            "title": "rental_duration",
+                            "field": "6",
+                            "dataType": {
+                                "type": 1,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 3,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "BOOL",
+                                    "BOOLEAN",
+                                    "INT1"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false,
+                            "default": "3"
+                        },
+                        {
+                            "title": "rental_rate",
+                            "field": "7",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false,
+                            "default": "4.99"
+                        },
+                        {
+                            "title": "length",
+                            "field": "8",
+                            "dataType": {
+                                "type": 2,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 5,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INT2"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        },
+                        {
+                            "title": "replacement_cost",
+                            "field": "9",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false,
+                            "default": "19.99"
+                        },
+                        {
+                            "title": "rating",
+                            "field": "10",
+                            "dataType": {
+                                "type": 43,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": "G"
+                        },
+                        {
+                            "title": "special_features",
+                            "field": "11",
+                            "dataType": {
+                                "type": 44,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        },
+                        {
+                            "title": "last_update",
+                            "field": "12",
+                            "dataType": {
+                                "type": 26,
+                                "dateTimePrecision": 8,
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false,
+                            "default": "CURRENT_TIMESTAMP"
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 4 records retrieved in 3.017ms"
+                    },
+                    "totalRowCount": 4,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT \n    *\nfrom \n    film t1\nwhere \n    t1.title LIKE '%super%' \nORDER BY \n    t1.title ASC \nlimit 5",
+                    "updatable": true,
+                    "fullTableName": "film"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 10,
+                "end": 18,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "85cb53d1-b206-4230-b9be-c6c72ce69278"
+                    ]
+                },
+                "currentHeight": 36,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 130
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "85cb53d1-b206-4230-b9be-c6c72ce69278",
+                    "rows": [
+                        {
+                            "0": 5,
+                            "1": "AFRICAN EGG",
+                            "2": 130,
+                            "3": 2006
+                        },
+                        {
+                            "0": 6,
+                            "1": "AGENT TRUMAN",
+                            "2": 169,
+                            "3": 2006
+                        },
+                        {
+                            "0": 11,
+                            "1": "ALAMO VIDEOTAPE",
+                            "2": 126,
+                            "3": 2006
+                        },
+                        {
+                            "0": 12,
+                            "1": "ALASKA PHANTOM",
+                            "2": 136,
+                            "3": 2006
+                        },
+                        {
+                            "0": 13,
+                            "1": "ALI FOREVER",
+                            "2": 150,
+                            "3": 2006
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "film_id",
+                            "field": "0",
+                            "dataType": {
+                                "type": 2,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 5,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INT2"
+                                ]
+                            },
+                            "inPK": true,
+                            "nullable": false,
+                            "autoIncrement": true
+                        },
+                        {
+                            "title": "title",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "length",
+                            "field": "2",
+                            "dataType": {
+                                "type": 2,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 5,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INT2"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        },
+                        {
+                            "title": "release_year",
+                            "field": "3",
+                            "dataType": {
+                                "type": 1,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 3,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "BOOL",
+                                    "BOOLEAN",
+                                    "INT1"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": true,
+                            "autoIncrement": false,
+                            "default": null
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 5 records retrieved in 1.241ms"
+                    },
+                    "totalRowCount": 5,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT \n    f.film_id,f.title,f.length,f.release_year\nFROM \n    film f\nWHERE\n    f.length > 120\nORDER BY \n    f.title ASC \nlimit 5",
+                    "updatable": true,
+                    "fullTableName": "film"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 19,
+                "end": 29,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 4,
+                            "index": 0,
+                            "resultId": "a593b8fc-b5fe-4cab-bbad-05ed87f60085",
+                            "content": "OK, 0 records retrieved in 0s"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 262
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 30,
+                "end": 39,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "b08e675c-85ae-4629-9076-d1ebed58ec04"
+                    ]
+                },
+                "currentHeight": 186.859375,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 163
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 163,
+                            "length": 1
+                        },
+                        "contentStart": 162,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "b08e675c-85ae-4629-9076-d1ebed58ec04",
+                    "rows": [
+                        {
+                            "0": 6,
+                            "1": 212
+                        },
+                        {
+                            "0": 3,
+                            "1": 203
+                        },
+                        {
+                            "0": 4,
+                            "1": 203
+                        },
+                        {
+                            "0": 7,
+                            "1": 191
+                        },
+                        {
+                            "0": 5,
+                            "1": 191
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "rental duration(days)",
+                            "field": "0",
+                            "dataType": {
+                                "type": 1,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 3,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "BOOL",
+                                    "BOOLEAN",
+                                    "INT1"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "total_filmes",
+                            "field": "1",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 5 records retrieved in 2.35ms"
+                    },
+                    "totalRowCount": 5,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT \n    rental_duration as \"rental duration(days)\", \n    COUNT(*) AS total_filmes\nFROM \n    film\nGROUP BY \n    rental_duration\nORDER BY \n    total_filmes DESC",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 40,
+                "end": 53,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "99077018-cbba-49aa-e5a6-00dd9fe7b471"
+                    ]
+                },
+                "currentHeight": 162.671875,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 297
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "1",
+                    "resultId": "99077018-cbba-49aa-e5a6-00dd9fe7b471",
+                    "rows": [
+                        {
+                            "0": "DALE",
+                            "1": "RATCLIFF",
+                            "2": "1346 Mysore Drive",
+                            "3": "Brest",
+                            "4": "France"
+                        },
+                        {
+                            "0": "LYNN",
+                            "1": "PAYNE",
+                            "2": "1740 Le Mans Loop",
+                            "3": "Le Mans",
+                            "4": "France"
+                        },
+                        {
+                            "0": "TRACY",
+                            "1": "COLE",
+                            "2": "1386 Yangor Avenue",
+                            "3": "Toulon",
+                            "4": "France"
+                        },
+                        {
+                            "0": "DEBRA",
+                            "1": "NELSON",
+                            "2": "391 Callao Drive",
+                            "3": "Toulouse",
+                            "4": "France"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "first_name",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "last_name",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "address",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "city",
+                            "field": "3",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "country",
+                            "field": "4",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 4 records retrieved in 1.003ms"
+                    },
+                    "totalRowCount": 4,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT  \n    cu.first_name,cu.last_name,\n    ad.address,ct.city,co.country\nFROM\n    customer cu\njoin\n    address as ad on cu.customer_id = ad.address_id\njoin\n    city as ct  on ad.city_id = ct.city_id\nJOIN\n    country as co on ct.country_id = co.country_id\nWHERE\n    co.country = 'France' \nLIMIT 5",
+                    "updatable": false,
+                    "fullTableName": ""
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 54,
+                "end": 54,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
