@@ -60,7 +60,7 @@ WHERE rental_date BETWEEN '2005-01-01' AND '2005-12-31';
 -- g) Número de alugueres em cada dia de dezembro de 2023:
 SELECT DATE(t1.rental_date) AS rental_day, COUNT(t1.rental_id) AS rentals
 FROM rental t1
-WHERE YEAR(t1.rental_date) = 2023 AND MONTH(t1.rental_date) = 12
+WHERE YEAR(t1.rental_date) = 2005 AND MONTH(t1.rental_date) = 5
 GROUP BY rental_day
 ORDER BY rental_day;
 
@@ -110,5 +110,7 @@ WHERE t3.city = 'Vila do Conde' AND t3.country_id = (SELECT t6.country_id FROM c
 
 -- l) Eliminar o pagamento de €5.99 relativo ao aluguer 54321, do cliente 1001, registado pelo funcionário 123:
 DELETE t1 FROM payment t1
-WHERE t1.amount = 5.99 AND t1.rental_id = 54321 AND t1.customer_id = 1001 AND t1.staff_id = 123;
+WHERE 
+	t1.payment_id = 16053
+	-- t1.amount = 5.99 AND t1.rental_id = 54321 AND t1.customer_id = 1001 AND t1.staff_id = 123;
 

@@ -26,7 +26,3 @@ db.movies.find(
     {genres:{$in:["Adventure"]}},
     {_id:1,title:1,countries:1}
 ).limit(3);
-
-
-GROUP BY 
-    DATE(rental_date)  
