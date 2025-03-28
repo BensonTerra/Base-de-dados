@@ -74,15 +74,22 @@ HAVING COUNT(t1.store_id) > 0
 ORDER BY num_lojas DESC;
 
 
-select * from country as t1 ;
+select * from country as t1 order by t1.country;
 
--- i) Registar a cidade de Vila do Conde em Portugal:
+-- i1) Adicionar Portugal à tabela country, se ainda não existir
+INSERT INTO country (country)
+SELECT 'Portugal'
+WHERE NOT EXISTS (SELECT 1 FROM country WHERE country = 'Portugal');
+
+-- i2) Adicionar Vila do Conde à tabela city, associando ao ID de Portugal
 INSERT INTO city (city, country_id)
-VALUES ('Vila do Conde', (SELECT t2.country_id FROM country t2 WHERE t2.country = 'Portugal'));
+VALUES ('Vila do Conde', (SELECT country_id FROM country WHERE country = 'Portugal'));
+
 
 -- j) Registar que o cliente 1001 fez o pagamento de €4.99 relativamente ao aluguer 54321, tendo sido atendido pelo funcionário 123:
 INSERT INTO payment (customer_id, staff_id, rental_id, amount)
-VALUES (550, 2, 14018, 4.99);
+-- VALUES (550, 2, 14018, 4.99);
+ VALUES (1001, 123, 54321, 4.99);
 
 -- EXTRA
 SELECT 
